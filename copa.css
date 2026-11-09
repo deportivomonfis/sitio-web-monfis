@@ -131,6 +131,7 @@
 .cm-split__text p { max-width: 62ch; }
 .cm-split__media img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 6px; }
 .cm-split--rev .cm-split__media img { aspect-ratio: 3 / 4; }
+.cm-caption { margin-top: .6rem; font-size: .9rem; color: var(--cm-muted); }
 
 .cm-pillars { list-style: none; padding: 0; margin: 2rem 0 0; display: grid; gap: 1rem; }
 .cm-pillars li { border-left: 4px solid var(--cm-gold); padding: .2rem 0 .2rem 1rem; color: var(--cm-muted); }
@@ -340,6 +341,9 @@
   color: var(--cm-gold);
   margin: 1.5rem 0 2rem !important;
 }
+
+.cm-end__social { margin: 1.75rem 0 0 !important; color: #A9B7CF; }
+.cm-end__social a { color: var(--cm-gold); font-weight: 600; }
 
 @media (prefers-reduced-motion: reduce) {
   .cm *, .cm *::before, .cm *::after { transition: none !important; }
